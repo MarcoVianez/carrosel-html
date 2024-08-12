@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .carrosel {
+            width: 80%;
+            max-width: 800px;
+            overflow: hidden;
+            position: relative;
+            white-space: nowrap;
+        }
+        /* Adicione mais estilos conforme necessário */
+    </style>
+</head>
+<body>
+    <header>
+        <button>inicio</button>
+        <button>contato</button>
+        <button>postagem</button>
+    </header>
+    <div class="carrosel">
+        <div class="slide">
+            <img src="https://cursinhoparamedicina.com.br/wp-content/uploads/2022/10/Paisagem-1.jpg" alt="paisagem-1">
+        </div>
+        <div class="slide">
+            <img src="https://static3.depositphotos.com/1003352/159/i/450/depositphotos_1592977-stock-photo-tropical-beach.jpg" alt="paisagem-2">
+        </div>
+        <div class="slide">
+            <img src="https://www.pensamentoverde.com.br/wp-content/uploads/2018/02/Depositphotos_16902961_original_a393978551.jpg" alt="paisagem-3">
+        </div>
+    </div>
+    <footer>
+        <p>inicio</p>
+        <p>contato</p>
+        <p>postagem</p>
+    </footer>
+</body>
+</html>
